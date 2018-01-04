@@ -9,14 +9,14 @@
 *.gitattributes text
 
 # Declare files that should have CRLF line endings on checkout.
-*.ps1 eol=crlf
-*.psm1 eol=crlf
-*.psd1 eol=crlf
-*.psc1 eol=crlf
-*.ps1xml eol=crlf
-*.clixml eol=crlf
-*.xml eol=crlf
-*.txt eol=crlf
+*.ps1 text eol=crlf
+*.psm1 text eol=crlf
+*.psd1 text eol=crlf
+*.psc1 text eol=crlf
+*.ps1xml text eol=crlf
+*.clixml text eol=crlf
+*.xml text eol=crlf
+*.txt text eol=crlf
 
 # Declare files that are truly binary and shouldn't be modified.
 *.dll binary
