@@ -1,21 +1,24 @@
-# Set default behaviour, in case users don't have core.autocrlf set.
+# This file has been generated using '.gitattributes Generator'.
+# You can generate yours at http://ihopepeace.github.io/gitattributes_generator
+
 * text=auto
 
-# Explicitly declare text files we want to always be normalized and converted
+# Explicitly declare text files that should be normalized and converted
 # to native line endings on checkout.
-*.md            text
+*.md text
 *.gitattributes text
 
-# Declare files that will always have CRLF line endings on checkout.
-*.ps1    text  eol=crlf
-*.psm1   text  eol=crlf
-*.psd1   text  eol=crlf
-*.psc1   text  eol=crlf
-*.ps1xml text  eol=crlf
-*.clixml text  eol=crlf
-*.xml    text  eol=crlf
-*.txt    text  eol=crlf
+# Declare files that should have CRLF line endings on checkout.
+*.ps1 eol=crlf
+*.psm1 eol=crlf
+*.psd1 eol=crlf
+*.psc1 eol=crlf
+*.ps1xml eol=crlf
+*.clixml eol=crlf
+*.xml eol=crlf
+*.txt eol=crlf
 
-# Denote all files that are truly binary and should not be mergeable.
+# Declare files that are truly binary and shouldn't be modified.
 *.dll binary
 *.exe binary
+
